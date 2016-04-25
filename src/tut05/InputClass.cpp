@@ -1,54 +1,42 @@
-////////////////////////////////////////////////////////////////////////////////
-// Filename: inputclass.cpp
-////////////////////////////////////////////////////////////////////////////////
-#include "inputclass.h"
+#include "InputClass.h"
 
-
-InputClass::InputClass()
+InputClass::InputClass(void)
 {
+	// Initialize
 }
 
-
-InputClass::InputClass(const InputClass& other)
+InputClass::InputClass(const InputClass &other)
 {
+	// Copy
 }
 
-
-InputClass::~InputClass()
+InputClass::~InputClass(void)
 {
+	// Destruct
 }
 
-
-void InputClass::Initialize()
+void InputClass::Initialize(void)
 {
-	int i;
-	
+	int					i;
 
 	// Initialize all the keys to being released and not pressed.
-	for(i=0; i<256; i++)
+	for (i = 0; i < NUM_KEYS; i++)
 	{
 		m_keys[i] = false;
 	}
-
-	return;
 }
-
 
 void InputClass::KeyDown(unsigned int input)
 {
 	// If a key is pressed then save that state in the key array.
 	m_keys[input] = true;
-	return;
 }
-
 
 void InputClass::KeyUp(unsigned int input)
 {
 	// If a key is released then clear that state in the key array.
 	m_keys[input] = false;
-	return;
 }
-
 
 bool InputClass::IsKeyDown(unsigned int key)
 {
