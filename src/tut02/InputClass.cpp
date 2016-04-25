@@ -17,7 +17,7 @@ InputClass::~InputClass(void)
 
 void InputClass::Initialize(void)
 {
-	int i;
+	int					i;
 
 	// Initialize all the keys to being released and not pressed.
 	for (i = 0; i < NUM_KEYS; i++)

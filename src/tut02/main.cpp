@@ -1,11 +1,10 @@
 #include "SystemClass.h"
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdline, int iCmdshow)
+int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdline, int nCmdshow)
 {
-	SystemClass* System;
-	bool result;
-
-
+	SystemClass			*System;
+	bool				result;
+	
 	// Create the system object.
 	System = new SystemClass;
 	if (!System)
