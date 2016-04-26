@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tut08", "tut08\tut08.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tut09", "tut09\tut09.vcxproj", "{A0CC7E21-A852-4C44-95B0-115D862BA2D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tut10", "tut10\tut10.vcxproj", "{76D29C48-6189-4151-B9CB-0AA6735F3E8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -57,6 +59,10 @@ Global
 		{A0CC7E21-A852-4C44-95B0-115D862BA2D4}.Debug|x64.Build.0 = Debug|x64
 		{A0CC7E21-A852-4C44-95B0-115D862BA2D4}.Release|x64.ActiveCfg = Release|x64
 		{A0CC7E21-A852-4C44-95B0-115D862BA2D4}.Release|x64.Build.0 = Release|x64
+		{76D29C48-6189-4151-B9CB-0AA6735F3E8F}.Debug|x64.ActiveCfg = Debug|x64
+		{76D29C48-6189-4151-B9CB-0AA6735F3E8F}.Debug|x64.Build.0 = Debug|x64
+		{76D29C48-6189-4151-B9CB-0AA6735F3E8F}.Release|x64.ActiveCfg = Release|x64
+		{76D29C48-6189-4151-B9CB-0AA6735F3E8F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
